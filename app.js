@@ -12,7 +12,7 @@ mongoose.connect('mongodb://localhost/sales-report', {
 }).then(() => {
     console.log('Connection successfully on mongodb!')
 }).catch((error) => {
-    console.log(err);
+    console.log(error);
 })
 
 const indexRouter = require('./routes/index');
